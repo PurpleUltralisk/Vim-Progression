@@ -7,8 +7,8 @@ There are 2 modes in Vim:
 | Key | Description | 
 | --- | --- | 
 | 'h' | move cursor left |
-| 'j' | move cursor up |
-| 'k' | move cursor down |
+| 'j' | move cursor down |
+| 'k' | move cursor up |
 | 'l' | move cursor right |
 | `:w` | to save file changes |
 | `:q` | to exit file | 
