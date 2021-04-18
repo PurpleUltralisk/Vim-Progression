@@ -1,4 +1,6 @@
-# Useful Commands
+# 02 - Useful Commands
+Visit lecture notes [here](https://missing.csail.mit.edu/2020/editors/)
+
 ## Navigation 
 | Key | Description | 
 | --- | --- |
@@ -20,6 +22,7 @@
 | Key | Description | 
 | --- | --- |
 | `u`, `ctrl+R` | undo, redo |
+| `.` | repeats the last edit you made in current location |
 | `o`, `O` | Insert line below/above |
 | `d` | Delete, but needs to be combined with a movment | 
 | `dw` | Delete word | 
@@ -52,6 +55,11 @@ Sequence `v` to enter visual mode > select texts with movement keys > `y` to cop
 | --- | --- |
 | `~` | Change character case |
 
+## Copy to clipboard
+`"+y` copy to clipboard
+`"+gp` past to Vim
+
+
 ## Counts
 If we press a number before a command, it will repeat that command x number of times. 
 `4j` will move down in line 4 times.
@@ -64,11 +72,9 @@ We can do `2dw` or `2cw`.
 `ci[` - change inside bracket
 `da[` - will delete the words including the parenthesis. .
 
-
-
 ## Search
 '/` to search for a pattern. Then press `enter` to move cursor. 
-
 | Key | Description | 
 | 'n' | find next occurrence |
 | `N` | find previous occurence | 
+

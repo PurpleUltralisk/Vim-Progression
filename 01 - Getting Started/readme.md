@@ -24,3 +24,10 @@ There are 2 modes in Vim:
 | 'A' | to enter `insert` mode at beginning of line |
 
 And that's all you need to get started in Vim. 
+
+## Vim Modes 
+`Normal` - for moving around in a file press `esc` from other modes
+`Insert` - to edit text in file, press `i`
+`Replace` - to replace text in file, press `r`
+`Visual` - for selecting blocks of text, press `v`
+`Command-line` - for running command, typing `:` in 
