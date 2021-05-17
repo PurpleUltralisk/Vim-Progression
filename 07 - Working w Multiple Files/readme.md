@@ -27,3 +27,9 @@ To navigate between tabs:
 gt - Next tab
 gT - Previous tab
 {i}gt - Go to tab in position i
+
+## Create files with NERDTree
+
+Navigate to the directory you want to create enw file in, press `m` to bring filesystem menu
+Press `a` to add a childe node, and type in the filename
+To create a directory, append the name with a `/`
