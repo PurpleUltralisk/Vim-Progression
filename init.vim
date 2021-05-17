@@ -55,7 +55,7 @@ autocmd BufEnter * lcd %:p:h
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 map <leader>q :q<CR>
-" nnoremap <C-c> <Esc>
+nnoremap <C-c> <Esc>
 " Open terminal at current file directory
 map <F6> :let $VIM_DIR=expand('%:p:h')<CR>:terminal<CR>cd $VIM_DIR<CR>
 
