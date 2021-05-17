@@ -20,3 +20,5 @@ To replace all instances of the word in the file
 `:%s/old/new/g`
 To find every occurrenc and prompt to substitute or not
 `:%s/old/new/gc`
+
+**Note:** This works with regular expressions as well.
