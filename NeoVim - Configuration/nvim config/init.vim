@@ -99,6 +99,13 @@ let g:coc_global_extensions = [
 nmap <F2> <Plug>(coc-rename)
 nmap <silent> gd <Plug>(coc-definition)
 inoremap <silent><expr> <c-space> coc#refresh()
+" moving lines up/down
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc> :m .+1<CR>==gi
+inoremap <A-k> <Esc> :m .-k<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '>-2<CR>gv=gv
 
 nmap <C-n> :NERDTreeToggle<CR>
 vmap ++ <plug>NERDCommenterToggle

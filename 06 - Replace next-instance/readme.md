@@ -8,3 +8,15 @@ Here are the steps and explanations:
 3. To change the next instance of the search result we can type `cgn`.
 4. We can let Vim repeat this action by pressing `.`
    We can also skip instances by press `n` to skip over an occurrence.
+
+## :s
+
+We can replace the next instance of a word `quis`
+In normal mode, we type this command
+`:s/quis/newword`
+To replace all instances of the word in current line
+`:s/quis/newword/g`
+To replace all instances of the word in the file
+`:%s/old/new/g`
+To find every occurrenc and prompt to substitute or not
+`:%s/old/new/gc`
