@@ -12,6 +12,6 @@ Press `q` again to stop recording.
 
 ## Execute macro
 
-`<number>@<letter>`
+`@<letter>`
 TO execute a macro type the number of times you want to run the macro.
 Then type `@` and the letter you assigned your macro to.
